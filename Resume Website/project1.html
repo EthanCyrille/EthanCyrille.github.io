@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project 1: SeaBill</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html, body { height:100%; margin:0; padding:0; font-family: Arial, sans-serif; }
+    body {
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .bg-overlay {
+      background: rgba(255,255,255,0.85);
+      min-height: 100%;
+    }
+    .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    header, footer { text-align: center; padding: 1rem 0; background-color: #222; color: #fff; }
+    nav a { margin: 0 1rem; color: #fff; text-decoration: none; font-weight: bold; }
+    nav a[aria-current="page"] { text-decoration: underline; }
+    .card { background-color: #fff; padding: 1.5rem; margin-bottom: 2rem; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    .project-image img { max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ccc; margin-bottom: 0.5rem; display:block; margin-left:auto; margin-right:auto; }
+    .image-caption { text-align:center; font-style:italic; color:#555; margin-bottom:1rem; }
+    h2, h3 { color:#333; }
+    ul { padding-left:1.2rem; }
+    .visit-link {
+      margin-bottom: 1rem;
+      display: inline-block;
+      background-color: #007acc;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .visit-link:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-overlay">
+    <header>
+      <h1>SeaBill</h1>
+      <nav>
+        <a href="index.html">Resume</a>
+        <a href="project1.html" aria-current="page">Project 1</a>
+        <a href="project2.html">Project 2</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="card">
+
+        <!-- Video Link -->
+        <p><a href="https://www.youtube.com/watch?app=desktop&v=lRSB-3X5wqM" target="_blank" class="visit-link">Application Video Demonstration</a></p>
+
+        <!-- Project Image with Caption -->
+        <div class="project-image">
+          <img src="images/seabill.webp" alt="SeaBill iOS Application Screenshot">
+          <p class="image-caption">SeaBill — A Personalized Financial Planning App</p>
+        </div>
+
+        <!-- Project Description -->
+        <section>
+          <h3>Description:</h3>
+          <p>SeaBill is a responsive, interactive iOS application designed to provide users with a personalized financial planning experience. It includes budgeting tools, goal setting, and financial education modules. The application also features alert-based notifications to guide users based on their financial choices. Overall, SeaBill combines educational content, financial recommendations, analytics, and a highly user-friendly interface to support better financial decision-making.</p>
+        </section>
+
+        <!-- Objective -->
+        <section>
+          <h3>Objective & Example Scenario:</h3>
+          <p>The app allows users to track their finances, set personal goals, and receive interactive alerts and recommendations. For example, a user might set a savings goal, log expenses, and receive a notification if spending exceeds budget thresholds. This helps users improve their financial literacy while using a simple, accessible interface.</p>
+        </section>
+
+        <!-- Skills Learned -->
+        <section>
+          <h3>Skills Learned:</h3>
+          <ul>
+            <li>iOS application design and responsive interface development</li>
+            <li>UI/UX design for mobile applications</li>
+            <li>Integration of educational content and interactive alerts</li>
+            <li>User interaction and accessibility considerations</li>
+            <li>Combining analytics with actionable recommendations</li>
+          </ul>
+        </section>
+
+      </article>
+    </main>
+
+    <footer>
+      <p>© 2025 Ethan Cyrille • Built with semantic HTML &amp; CSS</p>
+    </footer>
+  </div>
+</body>
+</html>
